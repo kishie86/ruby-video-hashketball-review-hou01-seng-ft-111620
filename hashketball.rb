@@ -1,3 +1,7 @@
+
+
+
+
 # Write your code below game_hash
 require 'pry'
 def game_hash
@@ -179,7 +183,7 @@ def team_names
   array_team_names = []
   game_hash.each do |home, team_name|
   
-    binding.pry
+    #binding.pry
     array_team_names << team_name[:team_name]
   end
   return array_team_names
